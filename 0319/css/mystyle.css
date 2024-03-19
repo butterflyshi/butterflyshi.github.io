@@ -1,0 +1,17 @@
+@charset "utf-8";
+.titlestyle {
+    color: #DC7A1A;
+    text-align: center;
+    font-size: xx-large;
+}
+body img {
+    -webkit-box-shadow: 21px 20px 0px;
+    box-shadow: 21px 20px 0px;
+    font-size: xx-large;
+}
+
+.mainstyle {
+    color: #069AC7;
+    font-size: xx-large;
+    text-align: center;
+}
