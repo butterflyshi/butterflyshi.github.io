@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+    background-color: #74D8E8;
+    color: #020603;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: medium;
+    line-height: normal;
+    text-indent: 3px;
+    text-shadow: 0 0 #F1A3A4;
+    text-transform: none;
+}
+h1 {
+    color: #000000;
+    font-weight: 900;
+    font-family: "標楷體", "微軟正黑體", "新細明體", "細明體";
+    font-size: 30px;
+    font-style: italic;
+}
+p {
+    font-weight: normal;
+    font-family: "標楷體", "微軟正黑體", "新細明體", "細明體";
+    font-size: 20px;
+    line-height: 150%;
+}
