@@ -1,15 +1,16 @@
 @charset "utf-8";
 body {
     background-color: #74D8E8;
-    color: #020603;
-    font-style: normal;
+    color: #0F5621;
+    font-style: italic;
     font-variant: normal;
-    font-weight: normal;
-    font-size: medium;
+    font-weight: 900;
+    font-size: xx-large;
     line-height: normal;
     text-indent: 3px;
-    text-shadow: 0 0 #F1A3A4;
+    text-shadow: 7px 5px #F1A3A4;
     text-transform: none;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 h1 {
     color: #000000;
