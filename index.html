@@ -21,18 +21,19 @@
     		<div class="collapse navbar-collapse" id="navbarSupportedContent">
       			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         			<li class="nav-item">
-          				<a class="nav-link active" aria-current="page" href="#">Home</a>
+          				<a class="nav-link active" href="#">butterflyshi</a>
         			</li>
-        			<li class="nav-item">
-         				<a class="nav-link" href="#">Link</a>
-        			</li>
+        			
         			<li class="nav-item dropdown">
-          				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+          				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">about me</a>
+						<li class="nav-item">
+          					<a class="nav-link" href="#">Link</a>
+        				</li>
           				<ul class="dropdown-menu">
-            				<li><a class="dropdown-item" href="#">Action</a></li>
-            				<li><a class="dropdown-item" href="#">Another action</a></li>
+            				<li><a class="dropdown-item" href="#">Anime</a></li>
+            				<li><a class="dropdown-item" href="#">Music</a></li>
             				<li><hr class="dropdown-divider"></li>
-            				<li><a class="dropdown-item" href="#">Something else here</a></li>
+            				<li><a class="dropdown-item" href="#">VolleyBall</a></li>
           				</ul>
         			</li>
       			</ul>
@@ -246,7 +247,7 @@
 		<div class="col-4">
 			<br>
 			<br>
-			<div class="card text-center">
+			<div class="card text-center d-grid gap-2">
   				<div class="card-header" style="background-color:#F6C6AD">簡介</div>
   				<div class="card-body">
     				<h5 class="card-title fw-bold">傳承悠久歷史，同時掌握時代脈動</h5>
@@ -255,7 +256,32 @@
 						實用的多軌課程結構、濃厚的學術研究風氣及卓越的師資培育方式，
 						除致力於教育本業人才之培育外，亦創新拓展相關學術領域，是有志於教育文化產業者最佳的選擇。
 					</p>
-    				<a href="#" class="btn btn-primary" style="background-color:#379499">Go somewhere</a>
+    				
+					<!-- 觸發互動視窗的按鈕 -->
+					<button type="button" class="btn btn-primary" style="background-color:#379499" data-bs-toggle="modal" 
+  					data-bs-target="#myModal">簡史</button>
+					<!-- 互動視窗 -->
+					<div class="modal fade" id="myModal" tabindex="-1">
+						<div class="modal-dialog">
+							<div class="modal-content">
+						  		<div class="modal-header">
+									<h3 class="modal-title">！！！長文注意！！！</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						  		</div>
+						  		<div class="modal-body">
+									<p>本校創立於西元1895年，初名芝山巖學堂，翌年改稱台灣總督府國語學校，1919年改名為台灣總督府台北師範學校。1927年分割為台灣總督府台北第一師範學校（今臺北市立大學的前身，南門校區）、台灣總督府台北第二師範學校（今國立臺北教育大學的前身，芳蘭校區），1943年兩校再合併為台灣總督府台北師範學校（南門校區收預科及女子部，芳蘭校區收本科生；日治時期國語學校及臺北師範學校的學籍簿全部移至芳蘭校區，即今國立臺北教育大學校區）。1945年日本戰敗，本校更名為臺灣省立臺北師範學校，1961年改制為臺灣省立臺北師範專科學校，1987年升格改制為臺灣省立臺北師範學院，1991年改隸為國立臺北師範學院，2005年升格改制為國立臺北教育大學。本校創校迄今已逾128年，校史悠久，畢業校友二十餘萬人，遍布海內外，於教育、人文藝術、數理、科技、法政、財經各界，均卓然有成。</p>
+						  		</div>
+					
+								<div class="form-check" >
+									<input class="form-check-input" type="checkbox" value="CK" id="CK" checked>
+									<label class="form-check-label" for="CK">感謝</label>
+								</div>
+								<br>
+							</div>
+					  	</div>
+					</div>
+
+					
   				</div>
 			</div>
 		</div>
